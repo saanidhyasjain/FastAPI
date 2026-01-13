@@ -10,7 +10,7 @@ POSTGRESQL_DATABASE_URL = 'postgresql://deploy_database_yn0f_user:Tq8rgmt4z7DxVV
 #  connect_args={'check_same_thread':False} this will allow sqlite to communicate only with one thread
 
 # engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={'check_same_thread':False})
-engine = create_engine(POSTGRESQL_DATABASE_URL, connect_args={'check_same_thread':False})
+engine = create_engine(POSTGRESQL_DATABASE_URL)
 
 #engine = create_engine(MYSQL_DATABASE_URL)
 
